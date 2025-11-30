@@ -1,0 +1,98 @@
+2025-11-29T12:45:52.641Z INFO SharedStateManager initialized
+2025-11-29T12:45:52.643Z INFO Is remote: false
+2025-11-29T12:45:52.644Z INFO Starting Local. Installation path: c:\Users\rshra\CODING\.vscode
+2025-11-29T12:45:52.645Z INFO [MainProvider] Creating new MainProvider instance...
+2025-11-29T12:45:52.647Z INFO [TabsManager] Code view listener set up at initialization
+2025-11-29T12:45:52.649Z INFO Installation path exists: c:\Users\rshra\CODING\.vscode
+2025-11-29T12:45:52.650Z INFO Initializing database with URL: file:c:\Users\rshra\CODING\.vscode\pythagora-core\data\database\pythagora.db
+2025-11-29T12:45:52.654Z INFO Database file exists, skipping prisma generate/push for faster startup
+2025-11-29T12:45:52.655Z INFO Database initialized successfully
+2025-11-29T12:45:52.657Z INFO [Migration] Checking for database migration...
+2025-11-29T12:45:52.684Z INFO [TabsManager] First file opened, triggering split view
+2025-11-29T12:45:52.686Z INFO [MainProvider] First file opened, creating split view
+2025-11-29T12:45:52.965Z INFO [Migration] No migration needed
+2025-11-29T12:45:56.062Z INFO [TabsManager] First file opened, triggering split view
+2025-11-29T12:45:56.063Z INFO [MainProvider] First file opened, creating split view
+2025-11-29T12:51:31.358Z INFO [TabsManager] First file opened, triggering split view
+2025-11-29T12:51:31.359Z INFO [MainProvider] First file opened, creating split view
+2025-11-29T12:52:13.817Z INFO [TabsManager] First file opened, triggering split view
+2025-11-29T12:52:13.817Z INFO [MainProvider] First file opened, creating split view
+2025-11-29T13:33:06.978Z INFO [TabsManager] First file opened, triggering split view
+2025-11-29T13:33:06.980Z INFO [MainProvider] First file opened, creating split view
+2025-11-29T13:33:10.141Z INFO [TabsManager] First file opened, triggering split view
+2025-11-29T13:33:10.143Z INFO [MainProvider] First file opened, creating split view
+2025-11-29T13:33:54.349Z INFO [TabsManager] First file opened, triggering split view
+2025-11-29T13:33:54.350Z INFO [MainProvider] First file opened, creating split view
+2025-11-29T13:34:13.449Z INFO [TabsManager] First file opened, triggering split view
+2025-11-29T13:34:13.450Z INFO [MainProvider] First file opened, creating split view
+2025-11-29T13:36:35.697Z INFO [TabsManager] First file opened, triggering split view
+2025-11-29T13:36:35.698Z INFO [MainProvider] First file opened, creating split view
+2025-11-29T13:38:30.613Z INFO [TabsManager] First file opened, triggering split view
+2025-11-29T13:38:30.614Z INFO [MainProvider] First file opened, creating split view
+2025-11-29T13:38:31.813Z INFO [TabsManager] First file opened, triggering split view
+2025-11-29T13:38:31.814Z INFO [MainProvider] First file opened, creating split view
+2025-11-29T19:15:27.574Z INFO Closing entire Pythagora extension...
+2025-11-29T19:15:27.665Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+    at new ij (file:///c:/Users/rshra/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:120021)
+    at JS.U (file:///c:/Users/rshra/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:124631)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///c:/Users/rshra/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:122125)
+    at Zy.g (file:///c:/Users/rshra/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:41133)
+    at Zy.executeCommand (file:///c:/Users/rshra/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:40637)
+    at Object.executeCommand (file:///c:/Users/rshra/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:210:101000)
+    at closeEntirePythagoraExtension (c:\Users\rshra\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.6.5\out\extension.js:552:31)
+    at Object.deactivate (c:\Users\rshra\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.6.5\out\extension.js:427:15)
+    at kX.eb (file:///c:/Users/rshra/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11850)
+    at file:///c:/Users/rshra/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10000
+    at Array.map (<anonymous>)
+    at kX.$ (file:///c:/Users/rshra/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9988)
+    at kX.terminate (file:///c:/Users/rshra/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10231)
+    at nN.terminate (file:///c:/Users/rshra/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:914)
+    at Fs (file:///c:/Users/rshra/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:402:10411)
+    at MessagePortMain.<anonymous> (file:///c:/Users/rshra/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:402:6949)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain.emit (node:domain:489:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+    at Object.topLevelDomainCallback (node:domain:161:15)
+    at Object.callbackTrampoline (node:internal/async_hooks:128:24)
+Extra context: {
+  "message": "Canceled"
+}
+2025-11-30T04:14:34.812Z INFO SharedStateManager initialized
+2025-11-30T04:14:34.813Z INFO Is remote: false
+2025-11-30T04:14:34.813Z INFO Starting Local. Installation path: c:\Users\rshra\CODING\.vscode
+2025-11-30T04:14:34.814Z INFO [MainProvider] Creating new MainProvider instance...
+2025-11-30T04:14:34.816Z INFO [TabsManager] Code view listener set up at initialization
+2025-11-30T04:14:34.819Z INFO Installation path exists: c:\Users\rshra\CODING\.vscode
+2025-11-30T04:14:34.820Z INFO Initializing database with URL: file:c:\Users\rshra\CODING\.vscode\pythagora-core\data\database\pythagora.db
+2025-11-30T04:14:34.825Z INFO Database file exists, skipping prisma generate/push for faster startup
+2025-11-30T04:14:34.826Z INFO Database initialized successfully
+2025-11-30T04:14:34.827Z INFO [Migration] Checking for database migration...
+2025-11-30T04:14:35.161Z INFO [Migration] No migration needed
+2025-11-30T04:15:57.522Z INFO Closing entire Pythagora extension...
+2025-11-30T04:15:57.536Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+	at new ij (file:///c:/Users/rshra/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:120021)
+	at JS.U (file:///c:/Users/rshra/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:124631)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///c:/Users/rshra/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:122125)
+	at Zy.g (file:///c:/Users/rshra/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:41133)
+	at Zy.executeCommand (file:///c:/Users/rshra/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:40637)
+	at Object.executeCommand (file:///c:/Users/rshra/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:210:101000)
+	at closeEntirePythagoraExtension (c:\Users\rshra\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.6.9\out\extension.js:560:31)
+	at Object.deactivate (c:\Users\rshra\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.6.9\out\extension.js:427:15)
+	at kX.eb (file:///c:/Users/rshra/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11850)
+	at file:///c:/Users/rshra/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10000
+	at Array.map (<anonymous>)
+	at kX.$ (file:///c:/Users/rshra/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9988)
+	at kX.terminate (file:///c:/Users/rshra/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10231)
+	at nN.terminate (file:///c:/Users/rshra/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:914)
+	at Fs (file:///c:/Users/rshra/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:402:10411)
+	at MessagePortMain.<anonymous> (file:///c:/Users/rshra/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:402:6949)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain.emit (node:domain:489:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+Extra context: {
+  "message": "Canceled"
+}
