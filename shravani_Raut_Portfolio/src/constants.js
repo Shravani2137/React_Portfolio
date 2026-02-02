@@ -5,47 +5,42 @@ import javascriptLogo from './assets/tech_logo/javascript.png';
 import reactjsLogo from './assets/tech_logo/reactjs.png';
 import bootstrapLogo from './assets/tech_logo/bootstrap.png';
 import mysqlLogo from './assets/tech_logo/mysql.png';
-import mongodbLogo from './assets/tech_logo/mongodb.png';
 import firebaseLogo from './assets/tech_logo/firebase.png';
 import cLogo from './assets/tech_logo/c.png';
 import cppLogo from './assets/tech_logo/cpp.png';
 import javaLogo from './assets/tech_logo/java.png';
 import pythonLogo from './assets/tech_logo/python.png';
-//import typescriptLogo from './assets/tech_logo/typescript.png';
 import gitLogo from './assets/tech_logo/git.png';
 import githubLogo from './assets/tech_logo/github.png';
 import vscodeLogo from './assets/tech_logo/vscode.png';
-//import postmanLogo from './assets/tech_logo/postman.png';
-//import mcLogo from './assets/tech_logo/mc.png';
 import figmaLogo from './assets/tech_logo/figma.png';
 //import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
-//import csharpLogo from './assets/tech_logo/csharp.png';
 
 // Experience Section Logo's
-import webverseLogo from './assets/company_logo/prodigy.png';
-import agcLogo from './assets/company_logo/agc_logo.png';
-import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
+import prodigyLogo from './assets/company_logo/prodigy.png';
+ 
 
 // Education Section Logo's
-import glaLogo from './assets/education_logo/terna.png';
-import bsaLogo from './assets/education_logo/RCF.png';
-import vpsLogo from './assets/education_logo/DICS.png';
+import ternaLogo from './assets/education_logo/terna.png';
+import rcfLogo from './assets/education_logo/RCF.png';
+import dicsLogo from './assets/education_logo/DICS.png';
 
 // Project Section Logo's
-import githubdetLogo from './assets/work_logo/github_det.png';
-import csprepLogo from './assets/work_logo/cs_prep.png';
-import movierecLogo from './assets/work_logo/movie_rec.png';
-import taskremLogo from './assets/work_logo/task_rem.png';
-import npmLogo from './assets/work_logo/npm.png';
-import webverLogo from './assets/work_logo/web_dig.png';
-import cmLogo from './assets/work_logo/cm.png';
-import imagesearchLogo from './assets/work_logo/image_search.png';
-import removebgLogo from './assets/work_logo/remove_bg.png';
+import portfolioLogo from './assets/work_logo/portfolio.png';
+ 
 
 // certificates Section Logo's
+import bitnbuildLogo from './assets/certificates_logo/bitnbuild.png';
+import python1Logo from './assets/certificates_logo/python1.png';
+import power from './assets/certificates_logo/power.png';
+import SQL from './assets/certificates_logo/SQL.png'
 
+// extra Section Logo's
+import art1Logo from './assets/extra/art1.png';
+import art2Logo from './assets/extra/art2.png';
+import art3Logo from './assets/extra/art3.png';
 
 export const SkillsInfo = [
   {
@@ -92,7 +87,7 @@ export const SkillsInfo = [
   export const experiences = [
     {
       id: 0,
-      img: webverseLogo,
+      img: prodigyLogo,
       role: "Web Developer",
       company: "Prodigy InfoTech Intern",
       date: "June 2025 - July 2025",
@@ -104,14 +99,13 @@ export const SkillsInfo = [
       ],
     },
     
-    
   ];
   
   export const education = [
     
     {
       id: 0,
-      img: glaLogo,
+      img: ternaLogo,
       school: "Terna Engineering College ",
       date: "Aug 2023 - May 2027",
       grade: "8.2CGPA Overall",
@@ -120,8 +114,8 @@ export const SkillsInfo = [
     },
     {
       id: 1,
-      img: bsaLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
+      img: rcfLogo,
+      school: "R.C.F College, Alibag",
       date: "June 2022 - March 2023",
       grade: "68%",
       desc: "I completed my class 12 education from R.C.F College, Alibag, under the HSC board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
@@ -129,7 +123,7 @@ export const SkillsInfo = [
     },
     {
       id: 2,
-      img: vpsLogo,
+      img: dicsLogo,
       school: "D.I.C's English medium School,Nigdi",
       date: "2020",
       grade: "97.6%",
@@ -139,99 +133,73 @@ export const SkillsInfo = [
   ];
   
   export const projects = [
+    
     {
       id: 0,
-      title: "Shravani Raut Portfolio",
-      description:
-        "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-      image: githubdetLogo,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-      github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-      webapp: "https://githubprofiledetective.netlify.app/",
-    },
-    {
-      id: 1,
       title: "Workspace Management System",
       description:
-        "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-      image: csprepLogo,
+        " ",
+      image: portfolioLogo,
       tags: ["python"],
-      github: "https://github.com/codingmastr/CSPrep",
-      webapp: "https://csprep.netlify.app/",
+      github: " ",
+      webapp: " ",
     },
+     
+    {
+      id: 1,
+      title: "Salon ManagementEasy Q Sysytem",
+      description:"An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
+      image: portfolioLogo,
+      tags: ["React JS", "Node.js", "NPM"],
+      github: " ",
+      webapp: " ",
+    },
+  
     {
       id: 2,
-      title: "Aarogya-Sahayak",
-      description:
-        "A React-based web application ",
-      image: movierecLogo,
-      tags: ["React JS","HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/Movie-Recommendation-App",
-      webapp: "https://movie-recommendation-app-jet.vercel.app/",
-    },
-    {
-      id: 3,
-      title: "Salon ManagementEasyQ Sysytem",
-      description:
-        "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-      image: npmLogo,
-      tags: ["React JS", "Node.js", "NPM", "Validation"],
-      github: "https://github.com/codingmastr/cmtk-email-validator",
-      webapp: "https://www.npmjs.com/package/cmtk-email-validator",
-    },
-    {
-      id: 4,
-      title: "Weather App",
-      description:
-        "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-      image: taskremLogo,
-      tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-      github: "https://github.com/codingmastr/Task-Reminder-Tool",
-      webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
-    },
-    {
-      id: 5,
       title: "Smritika Jounal",
       description:
-        "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
-      image: webverLogo,
-      tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-      github: "https://github.com/codingmastr/Webverse-Digital",
-      webapp: "https://webversedigital.com/",
+        " ",
+      image:portfolioLogo,
+      tags: ["HTML", "CSS", "JavaScript"],
+      github: "https://github.com/Shravani2137/Smritika-Journal ",
+      webapp: " ",
     },
   ]; 
 
 export const Certificates = [
   {
-    id: 1,
-    title: "Java Programming Certificate",
-    image: "/certificates/java.png",
-    description: "Completed Java Programming Course from XYZ Academy.",
-    tags: ["Java", "Programming", "Backend"],
-    link: "/certificates/java.png" // direct link or google drive link
+    id: 0,
+    title: "SQL Certificate",
+    image: SQL,
+    description: "Completed a test-based SQL certification validating basic knowledge of queries and database concepts.",
+    tags: ["SQL", "Database"],
+    link: "/certificates/sql.png"
   },
+  {
+    id: 1,
+    title: "python Certificate",
+    image: python1Logo,
+    description: "Completed Python Programming Course from infosys springboard",
+    tags: ["HTML", "CSS", "JS"],
+    link: " "
+  },
+  
   {
     id: 2,
-    title: "Web Development Certificate",
-    image: "/certificates/webdev.jpg",
-    description: "Built responsive websites and learned HTML, CSS, JS.",
-    tags: ["HTML", "CSS", "JS"],
-    link: "/certificates/webdev.jpg"
-  },
-  {
-    id: 3,
-    title: "DSA Certificate",
-    image: "/certificates/dsa.jpg",
-    description: "Completed Data Structures & Algorithms training.",
-    tags: ["DSA", "Algorithms"],
-    link: "/certificates/dsa.jpg"
-  },
-  {
-    id: 3,
     title: "Bit N Build Hackathon",
-    image: "/certificates_logo/bitnbuild.png",
+    image: bitnbuildLogo,
     description: "Completed Data Structures & Algorithms training.",
     tags: ["reactjs", "hackathon"],
+    link: " "
+  },
+
+  {
+    id: 3,
+    title: "Power Bi Certificate",
+    image: power,
+    description: "Completed Power BI training covering data modeling, DAX, interactive dashboards, and data visualization for business insights.",
+    tags: ["powerbi", "data-visualization", "analytics"],
     link: " "
   },
 ];
@@ -239,31 +207,22 @@ export const Extracurriculars = [
   {
     id: 1,
     title: "NSS Volunteer",
-    description: "Volunteered in social activities and village programs.",
+    description: "NSS Documenation head of Terna Engineering College 2025-2026.",
     tag: "Leadership",
-    images: [
-      "/extra/nss1.jpg",
-      "/extra/nss2.jpg",
-      "/extra/nss3.jpg"
-    ]
+     
   },
   {
     id: 2,
-    title: "Art & Illustration",
-    description: "Digital illustrations and project graphics.",
+    title: "Painter",
+    description: "won various national and state level art competitions during school times.",
     tag: "Creative",
-    images: [
-      "/extra/art1.jpg",
-      "/extra/art2.jpg"
-    ]
+   
   },
   {
     id: 3,
-    title: "Tech Fest Volunteer",
-    description: "Handled registrations and coordinated events.",
+    title: "Tug of War Player",
+    description: "Gold medalist at State level Tugof war tournament.",
     tag: "Teamwork",
-    images: [
-      "/extra/techfest1.jpg"
-    ]
+    
   },
 ];

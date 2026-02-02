@@ -25,11 +25,11 @@ const About = () => {
             <span className="text-white">I am a </span>
             <ReactTypingEffect
               text={[
-                'Fullstack Developer',
-                'Editor',
-                'Coder',
-                'Painter',
-                'Sportswoman',
+                'Web Developer.',
+                'Editor.',
+                'Coder.',
+                'Painter.',
+                'Sportswoman.',
               ]}
               speed={100}
               eraseSpeed={50}
@@ -57,7 +57,7 @@ I also enjoy sports like tug-of-war and athletics, which teach teamwork and disc
               boxShadow: '0 0 1px #A5BECC, 0 0 1px #A5BECC, 0 0 20px #A5BECC',
             }}
           >
-            DOWNLOAD CV
+            DOWNLOAD RESUME
           </a>
           
         </div>

@@ -63,17 +63,7 @@ const Extracurricular = () => {
               </h3>
               <p className="text-gray-400 mb-6">{selectedItem.description}</p>
 
-              {/* Image Gallery */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {selectedItem.images.map((img, i) => (
-                  <img
-                    key={i}
-                    src={img}
-                    alt="activity"
-                    className="w-full h-48 object-cover rounded-xl border border-gray-700"
-                  />
-                ))}
-              </div>
+             
             </div>
           </div>
         </div>
